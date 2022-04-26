@@ -10,7 +10,7 @@ import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import io.gatling.jdbc.Predef._
 
-class Sodimaa extends Simulation {
+class Sodimac extends Simulation {
 
 	private def getProperty(propertyName: String, defaultValue: String) = {
     Option(System.getenv(propertyName))
@@ -87,10 +87,10 @@ class Sodimaa extends Simulation {
 	/**
    * Step 3 : Define the scenarios
    */
-   val scn1 = scenario("Sodimaa Home page and open random product").forever{
+   val scn1 = scenario("Sodimac Home page and open random product").forever{
 	/**
      * This is the Scenario 1
-     * Workflow includes going on linio.cl website and select a random product
+     * Workflow includes going on sodimac website and select a random product
      * and checking the details of the random product
      */
 		exec(http("01_Launch")
@@ -134,7 +134,7 @@ class Sodimaa extends Simulation {
 			.headers(headers_3)))
 			}
 
-	 val scn2 = scenario("Sodimaa Home page and Search Random String").forever{
+	 val scn2 = scenario("Sodimac Home page and Search Random String").forever{
 	 /**
      * This is the Scenario 2
      * Workflow includes going on Sodimaa website and searching a string on the search bar
