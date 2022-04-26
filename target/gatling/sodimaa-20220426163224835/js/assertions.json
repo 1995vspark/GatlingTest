@@ -1,0 +1,10 @@
+{
+  "simulation": "Sodimaa",
+  "simulationId": "sodimaa",
+  "start": 1650990744835,
+  "description": "",
+  "scenarios": ["Sodimaa Home page and Search Random String", "Sodimaa Home page and open random product"],
+  "assertions": [
+
+  ]
+}
