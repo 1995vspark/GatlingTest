@@ -37,7 +37,7 @@ Linio.cl homepage is included in both scenarios since the homepage is expected t
 
 **Steps to run the test**
 
-1. Clone the repo from 'https://github.com/GondaliaKaran/falabella-gatling.git'.
+1. Clone the repo from 'https://github.com/1995vspark/GatlingTest.git'.
 2. cd falabella-gatling
 3. mvn clean gatling:test -Dgatling.simulationClass=Simulations.LinioHomePage -DUSERS=10 -DRAMP_DURATION=1 -DDURATION=60
 
